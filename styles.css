@@ -1,0 +1,371 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: "Munson";
+	src: url("fonts/Munson.ttf");
+}
+html{
+  scroll-behavior: smooth;
+}
+img{
+	width: 100%;
+}
+body{
+	font-family: Munson;
+}
+body p{
+	font-size: 18px;
+}
+body a{
+	cursor: pointer;
+}
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+#logo{
+	text-align: center;
+}
+#logo img{
+	margin: 20px 0;
+	width: 40%;
+}
+.nav-bg-color{
+	background-color: #a2dbe4;
+}
+.style-nav{
+	padding: 20px;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #157395;
+}
+.style-nav:hover{
+	text-decoration: none;
+	color: #0e101f;
+	cursor: pointer;
+}
+#heading, #heading-form{
+  text-align: center;
+  font-size: 3.3em;
+  color: #157395;
+  padding: 5px;
+  padding: 20px 0px;
+  background-color: #a2dbe4;
+}
+
+/* +++++++++
+	CHOOSE
+	+++++++++ */
+
+#choose{
+	margin: 50px 0;
+}
+#choose h2{
+	text-align: center;
+	background-color: #157395;
+  font-size: 2.4em;
+  color: #fff;
+  padding: 30px 0;
+}
+.collages{
+  width: 33.3%;
+  float: left;
+  padding: 40px 0px 70px 0px;
+  margin: 5px 0;
+}
+.collage-container{
+  text-align: center;
+}
+.collage-container img{
+  width: 80%;
+}
+.collage_caption{
+  text-align: center;
+  color: #157395;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.collage_caption:hover{
+	text-decoration: none;
+	color: #a2dbe4;
+}
+
+/* +++++++++
+	ASIDE
+	+++++++++ */
+
+#reviews{
+	width: 100%;
+	float: left;
+	background-color: #157395;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#reviews h2{
+	text-align: center;
+	color: #a2dbe4;
+	font-size: 2.2em;
+	padding-top: 20px;
+}
+.star{
+	width: 2%;
+}
+#reviews p{
+	width: 60%;
+	margin: 0 auto;
+	color: #fff;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+
+/* +++++++++
+	FOOTER
+	+++++++++ */
+
+#footer{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #a2dbe4;
+	color: #157395;
+}
+.foot-col-1, .foot-col-2, .foot-col-3{
+	width: 33.3%;
+	float: left;
+	padding: 20px 0;
+}
+#footer p{
+	width: 100%;
+	font-size: 18px;
+}
+#footer h4{
+	padding: 0px 0px 20px 0px;
+}
+#footer section img{
+	width: 5%;
+	margin: 0px 20px;
+	text-align: center;
+}
+
+/* +++++++
+	PAGE ADVENTURES
+	+++++++ */
+
+.main-land{
+	margin: 40px 0px 20px 0px;
+	text-align: center;
+}
+.main-land h2, #main-contacts h2{
+	color: #df9f17;
+	font-size: 2.6em;
+	text-align: center;
+}
+.items-row{
+	width: 100%;
+	float: left;
+}
+.items h3{
+	color: #157395;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	background-color: #a2dbe4;
+	margin-bottom: 0px;
+	padding: 10px 0px;
+}
+.items {
+	width: 33.3%;
+	float: left;
+	padding: 20px 30px;
+}
+.items img{
+	width: 100%;
+}
+.item_description{
+	color: #df9f17;
+	padding: 5px 0px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 30px;
+}
+.item_caption{
+	border: 3px solid #157395;
+	padding: 5px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 30px;
+}
+.btnClick{
+	background-color: #a2dbe4;
+	border: 2px solid #a2dbe4;
+	color: #157395;
+	width: 70%;
+	font-size: 1.3em;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+.btnClick:hover{
+	cursor: pointer;
+	background-color: #157395;
+	border-color: #157395;
+	color: #a2dbe4;
+}
+#show1, #show2, #show3, #show4, #show5, #show6{
+	display: none;
+}
+
+/* ++++++++
+	PAGE CONTACTS
+	+++++++++ */
+#main-contacts, #main-form{
+	background-color: #e7f5fe;
+	padding: 30px 0;
+	text-align: center;
+}
+iframe{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* +++++++
+	PAGE FORM
+	+++++++++*/
+
+#heading-form{
+	margin: 30px 0;
+}
+form{
+	width: 50%;
+	margin: 0 auto;
+}
+#product, #fname, #lname, #email, #number, #address, #inquiry{
+	padding: 3px 0px;
+	font-size: 18px;
+	font-family: Munson;
+	border-color: #157395;
+}
+#product, #address, #inquiry{
+	width: 100%;
+}
+#fname, #lname, #email, #number{
+	width: 49.5%;
+}
+textarea{
+	border: 2px solid #157395;
+}
+form label{
+	font-size: 1.5em;
+	color: #157395;
+}
+input[type="submit"]{
+	width: 30%;
+	background-color: #a2dbe4;
+	border: 2px solid #a2dbe4;
+	color: #157395;
+	font-size: 1.8em;
+}
+input[type="submit"]:hover{
+	background-color: #157395;
+	border: 2px solid #157395;
+	color: #a2dbe4;
+	cursor: pointer;
+}
+
+/* ++++++++++
+	RESPONSIVE DESIGN
+	+++++++++ */
+
+@media (max-width: 1024px){
+	#wrapper{
+		width: 100%;
+	}
+	.collages{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.collages:last-of-type{
+		width: 100%;
+	}
+	#footer section img{
+		width: 10%;
+	}
+	.btnClick{
+		width: 100%;
+	}
+	iframe{
+		width: 90%;
+	}
+	#product, #fname, #lname, #email, #number, #address, #inquiry{
+		width: 70%;
+	}
+	input[type="submit"]{
+		width: 60%;
+	}
+}
+@media (max-width: 768px){
+	#logo img{
+		width: 70%;
+	}
+	#heading, #heading-form{
+		font-size: 2.3em;
+	}
+	#choose h2{
+		font-size: 1.5em;
+	}
+	#reviews h2{
+		font-size: 1.8em;
+	}
+	.star{
+		width: 8%;
+	}
+	.foot-col-1, .foot-col-2{
+		width: 50%;
+	}
+	.foot-col-3{
+		width: 100%;
+	}
+	.items-row{
+		float: none;
+	}
+	.items{
+		width: 50%;
+	}
+	.items:last-of-type{
+		width: 100%;
+	}
+}
+@media (max-width: 425px){
+	#logo img{
+		width: 90%;
+	}
+	.collages{
+		width: 100%;
+	}
+	.items{
+		width: 100%;
+	}
+	.foot-col-1, .foot-col-2, .foot-col-3{
+		width: 100%;
+	}
+	#footer section img{
+		width: 13%;
+	}
+	iframe{
+		width: 95%;
+	}
+	#product, #fname, #lname, #email, #number, #address, #inquiry{
+		width: 90%;
+	}
+}
+@media (max-width: 320px){
+	#heading, #heading-form{
+		font-size: 1.6em;
+	}
+	#main-contacts h2{
+		font-size: 1.8em;
+	}
+}
